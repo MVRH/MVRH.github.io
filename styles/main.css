@@ -1,0 +1,96 @@
+/* Reset
+------------------------------------------------------------ */
+* { margin: 0; padding: 0; }
+html { overflow-y: scroll;}
+body { background:#FFF; font-size: 13px; color: #000; font-family:  Arial, helvetica, sans-serif;}
+ol, ul { list-style: none; margin: 0;}
+ul li { margin: 0; padding: 0;}
+h1 { margin-bottom: 10px; color: #111111;visibility:none;}	
+a, img { outline: none; border:none; color: #fff; font-weight: bold;}
+p { margin: 0 0 10px; line-height: 1.4em; font-size: 1.2em;}
+img { display: block; margin-bottom: 10px;}
+aside { font-style: font-size: 0.9em;}
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section { 
+    display: block;
+	}
+	
+		
+/* Structure */
+
+body {
+	font-family: 'Open Sans Condensed', sans-serif;
+	background: #cc6600  url(../images/bg.jpg);
+	background-position: center center;
+	color:#fff;}
+	
+.wrapper {
+		width: 100%;	
+		max-width: 920px;
+		margin: auto;}
+
+
+.main {
+		width: 100%;
+		padding-bottom:25px;
+		}
+
+		
+.logo {
+  background: url(../images/logo.png) 0 0 no-repeat;
+  background-position: center center;
+  background-size: contain;
+  text-align: center;
+  width: 100%;
+  padding-bottom: 25%;
+  margin-top: 25%;
+  text-indent: -1000%;
+}
+	
+/* Nav */
+nav {width: 100%;}
+nav ul {
+    text-align: center;
+    list-style:none;
+    padding:0;
+    margin:0;
+	}
+nav ul li{ 
+	font-size:9px;
+    vertical-align: top;
+    display: inline-block;
+    /* if you need ie6/7 support */
+    *display: inline;
+}
+
+nav a {
+  font-size: 13px;
+  font-weight: bold;
+  float: left;
+  padding: 5px 45px;
+  letter-spacing: 7px;
+  text-decoration: none;
+}
+
+
+hr {
+  border: 0;
+  color: #fff;
+  background-color: #fff;
+  height: 2px;
+  margin: 0 5%;
+  margin-bottom: 17px;
+}
+
+/* Footer */
+footer {
+letter-spacing: 0.5px;
+  text-align: center;
+  padding-top: 23px;
+  font-size: 10px;
+}
+
+footer a{
+	text-decoration: none;
+}
+
