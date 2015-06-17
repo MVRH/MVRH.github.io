@@ -56,10 +56,12 @@ nav ul {
 	}
 nav ul li{ 
 	font-size:9px;
-    vertical-align: top;
-    display: inline-block;
-    /* if you need ie6/7 support */
-    *display: inline;
+	vertical-align: top;
+	display: inline-block;
+	margin: 10px 0;
+	
+	 /* if you need ie6/7 support */
+	*display: inline;
 }
 
 nav a {
