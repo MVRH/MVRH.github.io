@@ -9,7 +9,11 @@
 
 /* Mobile */
 @media screen and (max-width: 480px), (max-height: 720px) {
-	.logo { margin-top: 0%;} 
+	.logo { margin-top: 0%;}
+}
+
+
+@media screen and (max-width: 480px), (max-height: 720px) {
 	footer {  position: relative;}
 }
 
