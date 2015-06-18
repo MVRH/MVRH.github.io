@@ -2,18 +2,19 @@
 @media screen and (min-width: 480px),(min-height: 720px)  { 
 	.logo { margin-top: 25%;} 
 	footer {  position: absolute;
- 	bottom: 0;
-  	left: 0;
-  	right: 0;}
+ 		bottom: 0;
+  		left: 0;
+  		right: 0;}
 }
 
 /* Mobile */
-@media screen and (max-width: 480px), (max-height: 720px) {
+@media screen and (max-width: 480px) {
 	.logo { margin-top: 0%;}
 }
 
 
-@media screen and (max-width: 480px), (max-height: 720px) {
+@media screen and (max-height: 720px) {
+	.logo { margin-top: 0%;}
 	footer {  position: relative;}
 }
 
