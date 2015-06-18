@@ -6,10 +6,10 @@ width:10px;
 bottom:0px;
 left:0px;
 z-index:1;
-background-color:#993300;
 }
 
 @media screen and (min-width: 480px) { .logo { margin-top: 0px;} .testblock {background-color:#cc6600;} }
+@media screen and (min-width: 480px) { .testblock {background-color:#993300;} }
 
 /* Reset*/
 
