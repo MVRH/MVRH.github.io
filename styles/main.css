@@ -9,7 +9,7 @@ z-index:1;
 background-color:#993300;
 }
 
-@media screen and (min-width: 480px) { .logo { margin-top: 0px;} .textblock {background-color:#cc6600;} }
+@media screen and (min-width: 480px) { .logo { margin-top: 0px;} .testblock {background-color:#cc6600;} }
 
 /* Reset*/
 
