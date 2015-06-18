@@ -1,6 +1,7 @@
 /* Big Screen */
 @media screen and (min-width: 480px),(min-height: 720px)  { 
-	.logo { margin-top: 25%;} 
+	.logo { margin-top: 25%;padding-bottom: 25%;}
+	.wrapper { max-width: 920px;}
 	footer {  position: absolute;
  		bottom: 0;
   		left: 0;
@@ -9,7 +10,8 @@
 
 /* Mobile */
 @media screen and (max-width: 480px) {
-	.logo { margin-top: 0%;}
+	.wrapper { max-width: 80%;}
+	.logo { margin-top: 0%;padding-bottom: 17%;}
 }
 
 
@@ -43,7 +45,6 @@ body {
  
 .wrapper {
 	width: 100%;
-	max-width: 920px;
 	margin: auto;
  }
  
@@ -57,7 +58,6 @@ body {
 	background-position: center center;
 	background-size: contain;
 	text-align: center;
-	padding-bottom: 25%;
 	text-indent: -1000%;
  }
  
