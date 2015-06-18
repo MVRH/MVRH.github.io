@@ -1,15 +1,12 @@
-.testblock { 
-display:block;
-position:absolute;
-height:10px;
-width:10px;
-bottom:0px;
-left:0px;
-z-index:1;
+/* Big Screen */
+@media screen and (min-width: 480px),(min-height: 720px)  { 
+	.logo { margin-top: 25%;} 
 }
 
-@media screen and (min-width: 480px) { .logo { margin-top: 0px;} .testblock {background-color:#cc6600;} }
-@media screen and (min-width: 480px) { .testblock {background-color:#993300;} }
+/* Mobile */
+@media screen and (max-width: 480px), (max-height: 720px) {
+	.logo { margin-top: 0%;} 
+}
 
 /* Reset*/
 
@@ -52,7 +49,6 @@ body {
 	text-align: center;
 	width: 100%;
 	padding-bottom: 25%;
-	margin-top: 25%;
 	text-indent: -1000%;
  }
  
