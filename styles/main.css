@@ -10,7 +10,7 @@
 
 /* Mobile */
 @media screen and (max-width: 480px) {
-	.wrapper { max-width: 80%;}
+	.wrapper { max-width: 80%;min-width: 320px;}
 	.logo { margin-top: 0%;padding-bottom: 17%;}
 }
 
