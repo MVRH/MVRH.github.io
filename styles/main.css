@@ -10,6 +10,7 @@
 /* Mobile */
 @media screen and (max-width: 480px), (max-height: 720px) {
 	.logo { margin-top: 0%;} 
+	footer {  position: relative;}
 }
 
 /* Reset*/
