@@ -1,5 +1,9 @@
-/* Reset
------------------------------------------------------------- */
+@media screen and (min-width: 480px) { .logo {position: absolute;bottom: 0;left: 0;right: 0;} }
+@media screen and (max-width: 480px) { .logo { margin-top: 0;} nav ul li { margin-bottom: 10px; margin-top: 10px;} }
+@media only screen and (min-device-width: 320px) and (orientation: portrait) { .logo { margin-top: 0; width:50%;} }
+
+/* Reset*/
+
 * { margin: 0; padding: 0; }
 html { overflow-y: scroll;}
 body { background:#FFF; font-size: 13px; color: #000; font-family:  Arial, helvetica, sans-serif;}
@@ -11,110 +15,81 @@ p { margin: 0 0 10px; line-height: 1.4em; font-size: 1.2em;}
 img { display: block; margin-bottom: 10px;}
 aside { font-style: font-size: 0.9em;}
 article, aside, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section { 
-    display: block;
-	}
-	
-		
-/* Structure */
+footer, header, hgroup, menu, nav, section { display: block;}
 
+/* Structure */
 body {
 	font-family: 'Open Sans Condensed', sans-serif;
-	background: #cc6600  url(../images/bg.jpg);
+	background: #cc6600 url(../images/bg.jpg);
 	background-position: center center;
-	color:#fff;}
-	
+	color: #fff;
+ }
+ 
 .wrapper {
-	width: 100%;	
+	width: 100%;
 	max-width: 920px;
-	margin: auto;}
-
-
+	margin: auto;
+ }
+ 
 .main {
 	width: 100%;
-	padding-bottom:25px;
-	}
-
+	padding-bottom: 25px;
+ }
+ 
 .logo {
-  background: url(../images/logo.png) 0 0 no-repeat;
-  background-position: center center;
-  background-size: contain;
-  text-align: center;
-  width: 100%;
-  padding-bottom: 25%;
-  margin-top: 25%;
-  text-indent: -1000%;
-}
-	
+	background: url(../images/logo.png) 0 0 no-repeat;
+	background-position: center center;
+	background-size: contain;
+	text-align: center;
+	width: 100%;
+	padding-bottom: 25%;
+	margin-top: 25%;
+	text-indent: -1000%;
+ }
+ 
 /* Nav */
 nav {width: 100%;}
-nav ul {
-    text-align: center;
-    list-style:none;
-    padding:0;
-    margin:0;
-	}
-nav ul li{ 
-	font-size:9px;
-	vertical-align: top;
-	display: inline-block;
-	margin: 10px 0;
-	
-	 /* if you need ie6/7 support */
-	*display: inline;
-}
-
-nav a {
-  font-size: 13px;
-  font-weight: bold;
-  float: left;
-  padding: 5px 45px;
-  letter-spacing: 7px;
-  text-decoration: none;
-}
-
-
+ 
+	nav ul {
+		text-align: center;
+		list-style: none;
+		padding: 0;
+		margin: 0;
+	 }
+ 
+		nav ul li {
+			font-size: 9px;
+			vertical-align: top;
+			display: inline-block;
+			margin: 10px 0;
+			*display: inline; /* if you need ie6/7 support */
+		 }
+ 
+	nav a {
+		font-size: 13px;
+		font-weight: bold;
+		float: left;
+		padding: 5px 45px;
+		letter-spacing: 7px;
+		text-decoration: none;
+	 }
+ 
 hr {
-  border: 0;
-  color: #fff;
-  background-color: #fff;
-  height: 2px;
-  margin: 0 5%;
-  margin-bottom: 17px;
-}
-
+	border: 0;
+	color: #fff;
+	background-color: #fff;
+	height: 2px;
+	margin: 0 5%;
+	margin-bottom: 17px;
+ }
+ 
 /* Footer */
 footer {
-letter-spacing: 0.5px;
-  text-align: center;
-  padding-top: 23px;
-  font-size: 10px;
-  
-  /* Align to bottom and center */
-
-  
-}
-
-footer a{
-	text-decoration: none;
-
-@media screen and (min-width: 480px) {
-	
-.logo {position: absolute;bottom: 0;left: 0;right: 0;	}
-
-}
-
-@media screen and (max-width: 480px) {
-	
-.logo { margin-top: 0;}
-nav ul li { margin-bottom: 10px; margin-top: 10px;}
-
-}
-
-@media only screen 
-  and (min-device-width: 320px) 
-  and (orientation: portrait) {
-  	
-  .logo { margin-top: 0; width:50%;}	
-  	
-  }
+	letter-spacing: 0.5px;
+	text-align: center;
+	padding-top: 23px;
+	font-size: 10px;
+ }
+ 
+ 
+footer a{text-decoration: none;
