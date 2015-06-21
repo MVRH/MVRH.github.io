@@ -38,7 +38,7 @@ footer, header, hgroup, menu, nav, section { display: block;}
 /* Structure */
 body {
 	font-family: 'Open Sans Condensed', sans-serif;
-	background: #cc6600 url(../images/bg.jpg);
+	background: #202020 url(../images/backgrounds/bg1.jpg);
 	background-position: center center;
 	color: #fff;
  }
