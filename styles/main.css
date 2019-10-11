@@ -101,14 +101,14 @@ hr {
  }
 
 .overlay {
-    background-color: SlateGray;
+    background-color: black;
     position:relative;
     width: 100%;
     height: 100%;
-    opacity: 0.20;
-    -moz-opacity: 20%;
-    -webkit-opacity: 20%;
-    z-index: 2;
+    opacity: 0.50;
+    -moz-opacity: 50%;
+    -webkit-opacity: 50%;
+    z-index: 3;
 }
 
  
